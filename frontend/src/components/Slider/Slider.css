@@ -1,0 +1,8 @@
+/* .carsousel-items{
+    width: 100%;
+    height: 70%;
+} */
+.carsousel-items img{
+    width: 100%;
+    height: 100vh;
+}

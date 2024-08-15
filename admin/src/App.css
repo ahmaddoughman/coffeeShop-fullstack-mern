@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.left{
+    background-color: rgb(179, 178, 178);
+    height: 100vh;
+}
+.title{
+    margin-top: 40px;
+    margin-left: 60px;
+}

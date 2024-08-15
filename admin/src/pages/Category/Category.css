@@ -1,0 +1,57 @@
+.h1{
+    border-bottom: 2px solid #000;
+    padding-bottom: 2px;
+    width: 126px;
+    margin: 5px 20px;
+}
+
+.add-category{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;  
+}
+
+.add-category .food-content{
+    background-color:  #949292;
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    cursor: pointer;
+}
+.add-category .food-content #editBtn{
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+    color: black;
+}
+.add-category .food-content #deleteBtn{
+    float: right;
+    margin-right: 5px;
+    margin-top: 2px;
+    color: black;
+}
+.add-category .food-content h2{
+    margin-top: 10px;
+}
+
+.add-category .food-content .img-container img{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+   
+}
+
+.plus{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 100;
+}
+
+
+.add-image-upload img{
+    width: 120px;
+}

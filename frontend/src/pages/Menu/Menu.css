@@ -1,0 +1,20 @@
+.menu-container{
+    margin-top: 100px;
+}
+.title-h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.title-hr{
+    width: 300px;
+    border: 2px solid #1a2422;
+    margin: 0 auto;
+}
+.shop-product-containers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 50px 100px;
+}

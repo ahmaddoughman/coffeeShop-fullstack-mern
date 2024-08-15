@@ -1,0 +1,100 @@
+/* Container for the entire order component */
+.order-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the main header */
+.order-container h2 {
+  margin-bottom: 20px;
+}
+
+/* Styling for the table */
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Table header styles */
+.order-table thead th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Table cell styles */
+.order-table tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row colors for the table */
+.order-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Highlight row on hover */
+.order-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Styling for the unordered list of items */
+.item-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+/* Styles for each list item */
+.item-list li {
+  display: flex; /* Align items horizontally */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 15px; /* Space between items */
+  padding: 10px; /* Padding inside each item */
+  border: 1px solid #ddd; /* Light border around items */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f9f9f9; /* Background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Styling for the product image */
+.item-list img {
+  width: 60px; /* Fixed width */
+  height: 60px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio */
+  margin-right: 15px; /* Space between image and text */
+  border-radius: 4px; /* Rounded corners for image */
+}
+
+/* Styles for the details of the item */
+.item-details {
+  flex: 1; /* Allow details to take available space */
+}
+
+/* Styles for the product title */
+.item-details strong {
+  display: block; /* Make it a block element */
+  margin-bottom: 5px; /* Space below the title */
+  font-size: 16px; /* Larger font size */
+}
+
+/* Styles for the image label */
+.item-details h2 {
+  font-size: 14px; /* Smaller font size */
+  margin: 0; /* Remove margin */
+  color: #333; /* Text color */
+}
+
+/* Styles for item info such as quantity and price */
+.item-info {
+  font-size: 14px; /* Font size for item info */
+  color: #555; /* Text color */
+}
+
+/* Ensure quantity and price are displayed in separate lines */
+.item-info span {
+  display: block; /* Display each item info as a block */
+}

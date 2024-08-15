@@ -1,0 +1,31 @@
+.category-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    gap: 20px;
+    background-color: rgb(160, 93, 62);
+    width: 400px;
+    height: 200px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btnUpdate{
+    background-color: #4caf50;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
